@@ -1,0 +1,4 @@
+django
+django-debug-toolbar
+djdt_flamegraph
+django-debug-toolbar-line-profiler

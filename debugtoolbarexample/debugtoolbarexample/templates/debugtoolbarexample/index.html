@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <body>
+      <h1>Hello Pycon {{ year }}</h1>
+      <ul>
+      {% for talk in talks %}
+      <li>{{ talk.title }} - {{ talk.speaker.name }}</li> 
+      {% endfor %}
+      </ul>
+    </body>
+  </head>
+</html>
